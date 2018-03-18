@@ -1,0 +1,303 @@
+@font-face {
+    font-family: nexaBook;
+    src: url("../fonts/Nexa_Book-webfont.woff2");
+    font-family: nexaHeavy;
+    src: url("../fonts/Nexa_Heavy-webfont.woff2");
+}
+
+body {
+	background-color: #ee6363;
+	background-image: url("../img/bg-img.png");
+	background-repeat: repeat;
+
+}
+
+nav a{
+	text-decoration: none;
+	color:white;
+
+}
+
+nav h1{
+	font-family: "nexaHeavy", sans-serif;
+	color:white;
+	font-size:17pt;
+	margin-left:30pt;
+	margin-top:25pt;
+}
+
+
+nav p{
+	font-family: "nexaBook", sans-serif;
+	display: inline;
+	color:white;
+	font-size:15pt;
+	margin-right:25px;
+	outline: 1px;
+    padding: 5px 15px;
+    border: 3px solid transparent;
+    border-radius:15px;
+}
+
+nav p:hover{
+	outline: 1px solid transparent;
+    padding: 5px 15px;
+    border: 3px solid white;
+    border-radius:15px;
+}
+
+nav .right{
+	margin-top:25pt;
+}
+
+.left {
+	float:left;
+}
+
+.right {
+	float:right;
+}
+
+.container{
+    width: 101%;
+    height: 50%;
+    margin:auto;
+    padding-top:.5%;
+}
+
+.container img{
+	margin-left: 141px;
+	width:50%;
+
+}
+
+.container h3{
+	font-family: "nexaBook", sans-serif;
+	color:#ee6363;
+	font-size: 20pt;
+}
+
+.container p{
+	font-family: "nexaBook", sans-serif;
+	color:#a1a3a5;
+	font-size: 18;
+	margin-top:-10px;
+}
+
+.row {
+	background-color: white;
+	box-shadow: 1px 1px 2px grey;
+    width: 101%;
+    height: 100%;
+    margin-top:35%;
+    margin-left:-1%;
+}
+
+
+.img{
+    width: 50%;
+    height: 80%;
+    margin-top:-15%;
+}
+
+.word{
+	margin-right:20%;
+	margin-left:20%;
+	margin-top:-1%;
+	text-align: center;
+
+}
+
+.word img{
+	width:40%;
+	margin:auto;
+}
+
+.row2 {
+    width: 101%;
+    height: 30%;
+    margin-top:35%;
+    margin-left:-1%;
+}
+
+.row2 img{
+	width:40%;
+	margin-left: 30%;
+}
+
+footer{
+	position: absolute;
+	background-color: rgba(44, 49, 51, 0.87);
+	width:101%;
+	height:35%;
+	margin-left:-1%
+}
+
+.row3 .img{
+
+}
+
+.row3 .img img{
+	display:inline;
+	padding-top:20%;
+	width:6%;
+	margin-right:-10%;
+}
+
+.row3 .word{
+	margin-left:15%;
+	margin-top:7%;
+	text-align: left;
+}
+
+/*--Login Page--*/
+
+.login {
+	background-color: white;
+	background-repeat: repeat;
+}
+
+.login nav h1 a{
+	color:#ee6363;
+}
+
+.login nav p{
+	color:black;
+}
+
+.login nav p a{
+	color:black;
+}
+
+.login nav p:hover{
+    border: 3px solid black;
+}
+
+.login .container{
+
+	height:100%;
+}
+
+.login .row{
+	background-color: #ee6363;
+	border-radius: 20px;
+	box-shadow: 1px 1px 2px grey;
+    width: 30%;
+    height: 55%;
+    margin:auto;
+    margin-top:15%;
+
+}
+
+
+.login .row h2{
+	font-family: "nexaHeavy", sans-serif;
+	padding-top:10%;
+	color:white;
+	text-align: center;
+}
+
+.login .row p{
+	font-family: "nexaBook", sans-serif;
+	color:white;
+	text-align: center;
+	margin-top:10%;
+}
+
+.login .row p a{
+	color:white;	
+}
+
+input[type=text]{
+	width: 80%;
+	color:rgba(44, 49, 51, 0.4);
+    padding: 4% 4%;
+    margin-left: 10%;
+    margin-top:5%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=password]{
+	width: 80%;
+	color:rgba(44, 49, 51, 0.4);
+    padding: 4% 4%;
+    margin-left: 10%;
+    margin-top:5%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 80%;
+    background-color:#ee6363;;
+    color: white;
+    font-size:12pt;
+    margin-left:10%;
+    margin-top:7%;
+    padding: 8px 8px;
+    border: 1.5pt solid white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.header{
+    width: 100%;
+	height:30%;
+}
+
+.login .row1{
+
+}
+
+.restaurant{
+	display: inline-block;
+}
+
+.info{
+	/*background-image: url("../img/res1.jpg");*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: left;
+    margin-left:5%;
+    margin-top:2%;
+	width: 220px;
+    height: 220px;
+
+	
+}
+
+
+
+.info h1{
+	font-family: "nexaBook", sans-serif;
+	color:white;
+	font-size: 15pt;
+	text-align: center;
+	margin-top: 15%;
+}
+
+.info h2{
+	font-family: "nexaBook", sans-serif;
+	color:white;
+	font-size: 12pt;
+	text-align: center;
+	margin-top: 20%;
+}
+
+.info p{
+	font-family: "nexaBook", sans-serif;
+	color:white;
+	font-size: 12pt;
+	text-align: center;
+	margin-top: 20%;
+}
+
+
+
+
+
+
+
